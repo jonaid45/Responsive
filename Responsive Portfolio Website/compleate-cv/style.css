@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+.clear::after{
+    content: "";
+    clear:both;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+body{
+    background:#EEE;
+}
+.container{
+    width: 1000px;
+    background-color: #E4F9F5;
+    margin: 0 auto;
+    padding:20px;
+}
+/* header-section */
+header{
+
+}
+.profile-img{
+    width: 120px;
+height:120px ;
+border: 3px solid white;
+border-radius: 50%;
+float: left;
+}
+
+.header-bio{
+float: left;
+padding: 30px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+.header-contact{
+    float: right;
+    padding:30px;
+}
+.header-contact a{
+text-decoration: none;
+color:teal;
+font-weight: bold;
+
+}
+.header-contact a:hover{
+text-decoration: underline;
+color:tomato;
+
+}
+
+hr{
+    border:solid black 3px;
+    border-width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+/* main section */
+.content{
+    padding: 20px;
+}
+.left-div{
+float: left;
+width: 30%;
+
+}
+.right-div{
+float: right;
+width: 70%;
+text-align: justify;
+}
+
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+/* 
+Education section
+*/
+.edu-template-left{
+    width: 50%;
+}
+.edu-template-right{
+    width: 50%;
+}
+/* hounors and aqards */
+.left-addr{
+    width: 45%;
+    margin-right: 3px;
+    box-sizing: border-box;
+}
+.right-addr{
+    width: 50%;
+}
+/* 
+Footer
+*/
+.bottom-container{
+    text-align: center;
+    color: white;
+    background: black;
+    padding: 20px;
+}
+.bottom-container a{
+    color: white;
+    font-size: 25px;
+    margin-left: 69px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 15px;
+    background: rgb(0, 163, 54);
+    line-height: 5;
+
+
+}
+.bottom-container p{
+font-size: 20px;
+margin-top: 8px;
+position: relative;
+}
+.bottom-container a:hover{
+background: burlywood;
+transition: .3s;
+color:rgb(0, 75, 119);
+}
